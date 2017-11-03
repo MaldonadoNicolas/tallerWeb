@@ -25,7 +25,7 @@
                     <form id="myForm" method="POST">
                         <td>
                             <input type="hidden" name="id_a" id="id_a" value="<?php echo $array["id_autor"]; ?>">
-                            <input type="button" value="Modificar" class="btn btn-warning" onclick="this.form.action='autor_update.php';this.form.submit()">       
+                            <input type="button" value="Modificar" class="btn btn-warning" onclick="this.form.action='index.php?action=actualizar';this.form.submit()">       
                             <input type="button" value="Eliminar" class="btn btn-danger" onclick="this.form.submit()">
                         </td>
                     </form>
